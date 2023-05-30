@@ -3,7 +3,7 @@ import requests
 
 
 def index(request):
-    url = "https://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=20fd5c34764021202072320d2d18ae58"
+    url = "https://api.openweathermap.org/data/2.5/weather?lat=53.893009&lon=lon=27.567444&appid=20fd5c34764021202072320d2d18ae58"
 
     city = 'Minsk'
 
